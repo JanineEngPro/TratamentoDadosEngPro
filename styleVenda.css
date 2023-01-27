@@ -38,15 +38,16 @@
 }
 .textDespertar{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.2em;
     padding:0.5em;
     
 }
-.styleDespertar{
+.styleDespertar{ 
+    width: 29%;
     text-align: center;
-    border:2px solid #808080;
-    width: 15%;
+    border:2px solid #177653;
+    border-radius: 10px;
     padding-bottom: 1em;
     margin: 1em 1em;
 }
@@ -57,5 +58,24 @@
 .sectionDespertar{
     display:flex;
     flex-direction:row;
-    background-image: url("https://github.com/JanineEngPro/TratamentoDadosEngPro/blob/main/Img/interrogacaoDespertar.png");
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.aVoltar{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    border: 2px solid #177653;
+    border-radius: 22px;
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    margin: 1em 1em 1em 2em;
+    display: block;
+    height: 19px;
+    width: 12%;
+}
+.aVoltar:hover{
+    font-size: 22px;
+    background-color: #808080;
+}
+   
