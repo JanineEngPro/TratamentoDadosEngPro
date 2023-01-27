@@ -3,7 +3,6 @@ body{
 }
 i{
     font-style:italic;
-    font-size: 24px;
 }
 .caixaTop{
     border: 4px solid #177653;
@@ -31,4 +30,61 @@ i{
     text-align: center;
     padding-top:1em;
     font-weight: bold;
+}
+.frasemobile{
+    display: none;
+}
+
+@media screen and (max-width: 420px) {
+    .caixaTop{
+        flex-direction: column;
+    }
+    #logoTopSite{
+        width:98%;
+        padding-left: 0;
+    }
+    .frasesTop{
+        width: 98%;
+   }
+    .pHeader{
+        font-size: 21px;
+        left:10%
+    }
+    .descricaoDaPagina{
+        display: none;
+    }
+    .frasemobile{
+        display: block;
+        font-size: 21px;
+        padding: 0.5em;
+        font-family: montez;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 890px){
+    .caixaTop{
+        flex-direction: column;
+    }
+    #logoTopSite{
+        width:98%;
+        padding-left: 0;
+    }
+    .frasesTop{
+        width: 98%;
+   }
+    .pHeader{
+        font-size: 30px;
+        left:10%
+    }
+    .descricaoDaPagina{
+        display: none;
+    }
+    .frasemobile{
+        display: block;
+        font-size: 38px;
+        padding: 0.5em;
+        font-family: montez;
+        font-weight: bold;
+    }
 }
