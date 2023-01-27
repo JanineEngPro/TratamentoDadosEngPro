@@ -124,14 +124,14 @@ footer li {
 .contaner{
     border: 2px solid #191970;
     border-radius: 4px;
-    width: 25%;
+    width: 28%;
     text-align: center;
     margin:1em;   
 }
 .titleContaner{
     font-family: montez;
-    padding: 1em 0 0 0;
-    font-size:25px;
+    padding: 1em 0 0.5em 0;
+    font-size:32px;
     font-weight: bold;
 }
 .imgContaner{
@@ -139,7 +139,7 @@ footer li {
 }
 .pContaner{
     font-size: 20px;
-    padding: 0.5em 0 1em 0 ;
+    padding: 0.5em 0.5em 1em 0.5em ;
     line-height:1.2em;
 }
 @media screen and (max-width: 420px) {
