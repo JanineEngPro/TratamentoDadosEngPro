@@ -212,11 +212,6 @@ strong a {
 	text-indent: 1.5em;
 	margin-bottom: 1em;
 }
-p{
-	margin-bottom: 1em;
-	text-align:justify;
-	line-height: 1.2em;
-}
 
 .modalDialog:target{
 	display: block;
