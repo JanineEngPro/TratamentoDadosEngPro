@@ -139,8 +139,29 @@ footer li {
 }
 .pContaner{
     font-size: 20px;
-    padding: 0.5em 0.5em 1em 0.5em ;
+    padding: 0.5em 0.5em 1.2em 0.5em ;
     line-height:1.2em;
+}
+
+.aContaner{
+    text-decoration: none;
+    font-size:20px;
+    color:#ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 22px;
+    padding: 0 1.2em;    
+    background-color: #61a48a;
+}
+.aContaner:hover{
+    font-size: 22px;
+    background-color: #696969;
+}
+
+.hasteg{
+    padding: 1.5em;
+    color:#177653;
+    font-weight: bold;
+    font-size:20px;
 }
 @media screen and (max-width: 420px) {
     .caixaTop{
