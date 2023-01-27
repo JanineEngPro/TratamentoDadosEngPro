@@ -1,0 +1,382 @@
+
+h3 {
+	font-family: 'Montez', cursive;
+	font-size:36px;
+	font-weight: bold;
+	padding: 3% 0 4% 0;
+	text-align: center;
+}
+h3:before{content:"➪"}
+
+.boxCeo{
+	display:flex;
+	justify-content: center;
+	margin:0;
+}
+.textCeo{
+	width: 900px;
+	padding: 14px;
+	margin-bottom: 1em;
+	border-color: #1e90ff;
+	border-width:3px;
+	border-style: solid;
+	border-radius: 10px;
+}
+.paragrafoPadrao{
+	padding: 15px;
+	font-size: 18px;
+	text-indent:45px;
+	text-align: justify;
+	line-height: 26px;
+}
+.padrao1{
+	width:1100px;
+	margin-left: 7%;
+}
+
+.assinatura{
+	font-family: 'Montez', cursive;
+	line-height: 28px;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+    color:#191970;
+    text-align: right;
+}
+strong{
+	font-weight: bold;
+}
+strong a {
+	font-weight: bold;
+	color:#000000;
+}
+/* ### BANNER 10 PROS ###### BANNER 10 PROS ###  */
+.bannerPro{
+	width: 95%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.styleBox{
+	width: 16%;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+    font-size:16px;
+	line-height: 1.2em;
+	border-width: 1px;
+	border-color: #177653;
+	border-style: solid;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.5em #808080;
+}
+.styleBox:hover{
+	width: 18%;
+	background: #f2f2f2;
+}
+
+.titleBox{
+	font-size: 18px;
+    font-weight: bold;
+    font-family: "Eczar" , cursive;
+    padding:1em 0 1em 0;
+}
+.paragrafoBox {
+    text-align: center;
+    padding: 0.5em 0.5em;
+}
+
+.hasteg{
+	color:#177653;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 15px;
+	text-align: center;
+}
+
+.bannerRes{
+	width: 95%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.styleBoxRe{
+	width: 25%;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+    font-size:16px;
+	line-height: 1.2em;
+	border-width: 1px;
+	border-color: #177653;
+	border-style: solid;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.5em #808080;
+}
+.paragrafoSeisRes{
+	width: 85%;
+	text-align:center;
+	padding: 1em  1em ;
+}
+.linkFerramentas{
+	text-decoration: none;
+	color:#000000;
+}
+.bottonRe{
+	width: 20%;
+	height: 3%;
+	text-align: center;
+	text-decoration: none;
+	color:#000000;
+	font-size: 20px;
+	background: #d5f9ec;
+	padding: 15px 15px;
+	margin: 5px;
+	margin-top:-40px;
+	position: relative;
+    left: 32%;
+	border-color: #191970;
+	border-width:6px;
+	border-style: double;
+	border-radius: 10px;
+}
+#titleEng{
+	color:#191970;
+	padding:15px;
+	margin-top: 2em;
+}
+.textEng{
+	width: 1400px;
+	padding:15px;
+	margin-bottom:2em;
+}
+#fotoCeo {
+	width: 13%;
+}
+#paragrafoCeo{
+	width: 100%;
+	margin-left:2em;
+	line-height: 27px;
+	text-indent: 50px;
+	font-size:18px;
+	color:#696969;
+	text-align: justify;	
+}
+
+.sectionCeo{
+	display:flex;
+	align-items:center;
+	margin:10em 2em 0 1em;
+}
+
+.bottonRe:hover {
+	background: linear-gradient(45deg, #FFFFFF, #c29e5b); 
+    border-color: #C78C19;
+    font-size: 25px;
+}
+.voltarEng{
+	position: relative;
+	margin-top: 2em;
+	top:2em;
+	left:80%;
+	color: #000000;
+	font-size: 18px;
+	padding:0.4em 0.8em;
+	background-color: #f2f2f2;
+}
+
+.voltarEng:after{
+	content: "\261D"
+}
+
+.voltarEng:hover{
+	font-size: 20px;
+	background: #C0C0C0;	
+}
+
+
+/* ###TEXTO NONES ###*/
+.titlePro{
+	font-weight: bold;
+	padding-bottom: 0.8em;
+}
+
+.modalDialog{
+	position:fixed;
+	font-size: 1.4em;
+	color:teal;	
+	width: 80%;
+	display: none;
+	text-indent: 1.5em;
+	margin-bottom: 1em;
+}
+p{
+	margin-bottom: 1em;
+	text-align:justify;
+	line-height: 1.2em;
+}
+
+.modalDialog:target{
+	display: block;
+	opacity: 1;
+	pointer-events:auto;
+}
+
+.modalDialog{
+	position: relative;
+	margin: 1% auto;
+	padding: 30px;
+	width: 800px;
+	height:580px;
+	border-radius: 5px;
+	background: #F5FFFA;
+}
+/*###*/
+
+.formatoHref{
+	text-decoration: none;
+	color:#000000;
+}
+
+.seisRes:hover{
+	width: 18%;
+	background: #f2f2f2;
+}
+.close1{
+	text-decoration: none;
+	font-size: 1em;
+	position:relative;
+	left:90%;
+	background-color: teal;
+	padding: 0 0.5em;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 20px;
+}
+.close1:hover{
+	font-size: 1.2em;
+	border-radius: 30px;
+}
+.textEngPros{
+	margin-bottom: 1em;
+}
+
+.close:hover{
+	background-color: #5b0909;}
+
+.textDesenvolvimento{
+	width: 80%;
+	font-size: 24px;
+	text-align: justify;
+	line-height: 1.5em;
+	padding:2em;
+	margin: 2em 5em 0 4em;
+	background: #FFF3E1;
+	border-radius: 1em;
+}
+.pDesenvolvimento{
+	text-indent: 25px;
+}
+#closeDesenvolvimento{
+	position: absolute;
+	right: 8%;
+	top:10%;
+}
+.li{
+	list-style: disc;
+}
+.list{
+	list-style: disc;
+	list-style-position: inside;
+
+}
+
+@media screen and (max-width: 420px) {
+	.voltarEng{
+		position:relative;
+		left:31%;
+	}
+	.styleBox , .styleBoxRe{
+		width: 80%;
+	}
+	.bannerPro, .bannerRes {
+	width: 98%;
+    display: flex;
+    flex-direction: column;
+	}
+	.script{
+		width: 95%;
+		margin-left: 15px;
+	}
+	.seisRes{
+		width: 98%;
+		margin-left: 30px;
+	}
+	.modalDialog{
+		width: auto;
+		height: 840px;
+	}
+	.bottonRe{
+		width: auto;
+		position:relative;
+		left:0;
+	}
+	.sectionCeo{
+		flex-direction:column;
+	}
+	#paragrafoCeo{
+		margin: 0;
+	}
+
+	.padrao1{
+		width: 310px;
+		padding-left: 0;
+	}
+    .textDesenvolvimento{
+        width:96%;
+        margin: 2% 2%;
+    }
+    #closeDesenvolvimento {
+        position: absolute;
+        right: -21%;
+        top: 1%;
+        text-decoration: none;
+    }
+}
+#acompanhe{
+	text-align: center;
+	font-size: 20px;
+}
+
+@media screen and (min-width: 421px) and (max-width: 790px){
+    .textDesenvolvimento{
+        width:82%;
+        margin: 2% 2%;
+    }
+    #closeDesenvolvimento {
+        position: absolute;
+        right: 7%;
+        top: 1%;
+        text-decoration: none;
+    }
+	.padrao1 {
+		width: 98%;
+		margin-left: 0; 
+	}
+	.styleBox {
+		width: 28%;
+	}
+	.paragrafoPadrao{
+		Width:94%;
+	}
+	.voltarEng{
+		left: 73%;
+		top: 1em;
+	}
+	.bannerPro{
+		justify-content: flex-start;
+	}
+}
+
