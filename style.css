@@ -34,6 +34,85 @@ i{
 .frasemobile{
     display: none;
 }
+footer img {width:20%;}
+footer{
+	margin: 0 auto;
+    background: #61a48a;		
+    padding : 0 10px;
+	font-family: Eczar;
+}
+.divEndereço { 
+    display: grid;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.sectionFooter{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+#marca{
+	font-size: 35px;
+	color:#3d3d3d;
+	font-weight: bold;
+	font-family: Eczar;
+	padding-bottom: 1em;
+	
+}
+.divAcompanhe{
+	color:#3d3d3d;
+	display: flex;
+}
+	     
+footer p {
+	padding: 5px;
+}
+
+#copy {
+	color:#3d3d3d;
+	text-align: center;
+	
+}
+
+#endereco {
+	color:#3d3d3d;
+	text-align: center;
+	
+}
+.acompanhe{
+	padding-bottom: 1em;
+	font-size: 20px;
+}
+		    
+.icones {
+	width:3%;
+	text-decoration: none;
+}
+
+.icones:hover{
+	width:4%;
+}
+
+.copyright {
+	color:#ffffff;
+	font-size: 16px;
+	margin:20px 0 0 ;
+}
+footer ul {
+	list-style: none;
+	text-align: center;
+	margin-top:1em;
+}
+
+footer li {
+	display: inline;
+	margin:0 0 0 15px;
+}
 
 @media screen and (max-width: 420px) {
     .caixaTop{
