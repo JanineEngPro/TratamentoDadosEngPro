@@ -113,7 +113,29 @@ footer li {
 	display: inline;
 	margin:0 0 0 15px;
 }
-
+.sectionContaner{
+    display: flex;
+}
+.contaner{
+    border: 2px solid #191970;
+    border-radius: 4px;
+    width: 25%;
+    text-align: center;
+    margin:1em;   
+}
+.titleContaner{
+    font-family: montez;
+    padding: 1em 0 0 0;
+    font-size:25px;
+    font-weight: bold;
+}
+.imgContaner{
+    width:30%;
+}
+.pContaner{
+    font-size: 20px;
+    padding: 0 0 1em 0 ;
+}
 @media screen and (max-width: 420px) {
     .caixaTop{
         flex-direction: column;
