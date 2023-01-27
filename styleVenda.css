@@ -1,0 +1,63 @@
+.modalDialog{
+    position:fixed;
+    font-size: 1.4em;
+    color:teal;	
+    width: 80%;
+    display: none;
+    text-indent: 1.5em;
+    margin-bottom: 1em;
+}
+.modalDialog:target{
+	display: block;
+	opacity: 1;
+	pointer-events:auto;
+}
+.modalDialog{
+	position: relative;
+	margin: 1% auto;
+	padding: 30px;
+	width: 800px;
+	height:580px;
+	border-radius: 5px;
+	background: #F5FFFA;
+}
+.close1{
+	text-decoration: none;
+	font-size: 1em;
+	position:relative;
+	left:90%;
+	background-color: teal;
+	padding: 0 0.5em;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 20px;
+}
+.close1:hover{
+	font-size: 1.2em;
+	border-radius: 30px;
+}
+.textDespertar{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2em;
+    padding:0.5em;
+    
+}
+.styleDespertar{
+    text-align: center;
+    border:2px solid #808080;
+    width: 15%;
+    padding-bottom: 1em;
+    margin: 1em 1em;
+    
+
+}
+.aDespertar{
+    color:black;
+    margin-bottom: 1em;
+}
+.sectionDespertar{
+    display:flex;
+    flex-direction:row;
+    background-image: url("interrogacaoDespertar.png");
+}
