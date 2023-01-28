@@ -114,6 +114,23 @@
     font-weight: bold;
 }
 /* #############VALORES################ */
+.menuPq{
+    display: flex;
+}
+#aNAv{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 6px double #be9e60;
+    border-radius: 34px;
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    margin: 1em 2em 1em 2em;
+    display: block;
+    height: 35px;
+    width: 24%;
+}
 .sectionPreco{
     display: flex;
     flex-direction: column-reverse;
