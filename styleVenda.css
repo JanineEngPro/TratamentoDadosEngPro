@@ -48,7 +48,7 @@
 .styleDespertar{ 
     width: 29%;
     text-align: center;
-    border:2px solid #177653;
+    border:6px double #177653;
     border-radius: 10px;
     padding-bottom: 1em;
     margin: 1em 1em;
@@ -56,6 +56,11 @@
 .aDespertar{
     color:black;
     margin-bottom: 1em;
+    font-size: 18px;
+}
+.aDespertar:hover{
+    font-size: 20px;
+    color:#191970;
 }
 .sectionDespertar{
     display:flex;
