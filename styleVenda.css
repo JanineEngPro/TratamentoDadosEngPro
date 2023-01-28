@@ -108,3 +108,21 @@
     /*color:teal;*/
     font-weight: bold;
 }
+
+@media screen and (max-width: 420px){
+    .styleDespertar {
+        width: 40%;
+    }
+    .aVoltar{
+        width:68%;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 890px){
+    .styleDespertar {
+        width: 44%;
+    }
+    .aVoltar{
+        width:33%;
+    }
+}
