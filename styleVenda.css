@@ -131,6 +131,11 @@
     height: 35px;
     width: 24%;
 }
+#aNAv:hover{
+    font-size: 22px;
+    background-color: #696969;
+
+}
 .sectionPreco{
     display: flex;
     flex-direction: column-reverse;
@@ -199,6 +204,44 @@
     text-indent: 2em;
     line-height: 1.5em;
     text-align: justify;
+}
+.divAviso{
+    margin: 5em 0;
+}
+.aConsultor{
+    width: 30%;
+    padding: 0.5em;
+    margin-left: 2em;
+    border: 2px solid #177653;
+    background-color: #177653;
+    border-radius: 30px;
+    font-size: 18px;
+    color:#ffffff;
+    text-decoration: none; 
+}
+.aConsultor:hover{
+    font-size: 20px;
+    background-color: #696969;
+}
+.divConsultor{
+    margin-left: 10%;
+}
+.aVoltarX{
+    border: 2px solid #177653;
+    background-color: #177653;
+    border-radius: 20px;
+    color:#ffffff;
+    text-decoration: none; 
+    margin: 1em;
+    padding: 0.5em;
+    position: absolute;
+    left:85%;
+    top: -1%;
+}
+.aVoltarX:hover{
+    font-size: 18px;
+    background-color: #696969;
+
 }
 
 
