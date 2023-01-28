@@ -357,11 +357,14 @@ strong a {
         top: 1%;
         text-decoration: none;
     }
+	.aVoltar{
+		width:64%;
+	}
 }
-#acompanhe{
-	text-align: center;
-	font-size: 20px;
-}
+	#acompanhe{
+		text-align: center;
+		font-size: 20px;
+	}
 
 @media screen and (min-width: 421px) and (max-width: 790px){
     .textDesenvolvimento{
