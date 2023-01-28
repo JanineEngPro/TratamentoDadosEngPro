@@ -18,7 +18,7 @@
 	margin: 1% auto;
 	padding: 30px;
 	width: 800px;
-	height:800px;
+	height:860px;
 	border-radius: 5px;
 	background: #F5FFFA;
 }
@@ -118,7 +118,7 @@
     }
     .modalDialog{
         width: 300px;
-        height: 1800px;
+        height: 1925px;
     }
     .close1{
         left: 84%;
@@ -136,6 +136,6 @@
     }
     .modalDialog{
         width: 643px;
-        height: 811px;
+        height: 1000px;
     }
 }
