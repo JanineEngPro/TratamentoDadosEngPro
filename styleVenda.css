@@ -6,6 +6,7 @@
     display: none;
     text-indent: 1.5em;
     margin-bottom: 1em;
+    
 }
 .modalDialog:target{
 	display: block;
@@ -99,9 +100,11 @@
 .olDespertar{
     list-style-type:decimal;
     list-style-position: inside;
-    line-height: 1em;
+    line-height: 1.3em;
     padding-bottom: 1em;
     text-align: justify;
-    
 }
-   
+.destaqueTexto{
+    /*color:teal;*/
+    font-weight: bold;
+}

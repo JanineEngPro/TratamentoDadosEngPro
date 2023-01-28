@@ -195,6 +195,24 @@ strong a {
 	font-size: 20px;
 	background: #C0C0C0;	
 }
+.aVoltar{
+	text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    border: 2px solid #177653;
+    border-radius: 22px;
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    margin: 1em 1em 1em 2em;
+    display: block;
+    height: 19px;
+    width: 12%;
+}
+.aVoltar:hover{
+    font-size: 22px;
+    background-color: #d6d4d4;
+    border: 2px solid #808080;
+}
 
 
 /* ###TEXTO NONES ###*/
