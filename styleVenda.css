@@ -218,6 +218,23 @@
         top: -0.8%;
         font-size: 0.8em;
     }
+    .menuPq{
+      justify-content: space-between;  
+    }
+    #aNAv{
+        margin: 0;
+        width: 32%;
+    }
+    .divPreco{
+        width: 98%;
+    }
+    .titleServicos {
+        font-size: 28px;
+    }
+    .warehouseValor{
+        width: 79%;
+    }
+    
 }
 
 @media screen and (min-width: 421px) and (max-width: 890px){
@@ -230,5 +247,8 @@
     .modalDialog{
         width: 643px;
         height: 1000px;
+    }
+    .divPreco{
+        width: 91%;
     }
 }
