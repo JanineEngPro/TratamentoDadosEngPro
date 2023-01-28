@@ -109,10 +109,15 @@
     font-weight: bold;
 }
 /* #############VALORES################ */
+.sectionPreco{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
 .divPreco{
-    border: 2px solid #c29e5b;
-    margin: 1em 2em;
-    width:50%;
+    border: 4px double #be9e60;
+    margin: 0.8em 2em;
+    width:55%;
     background: #000000;
     color:#ffffff;
     display: flex;
@@ -120,15 +125,49 @@
     align-items: center;
 }
 .warehouseValor{
-    border: 2px solid #be9e60;
-    width: 50%;
+    border: 3px double #177653;
+    width: 55%;
     text-align: center;
+    padding: 0.8em;
 }
 .titleServicos{
     font-size: 30px;
     font-weight: bold;
+    padding: 0.8em 1em;
+}
+.ulArgumento{
+    font-size: 17px;
+    font-family: Assistant;
     padding: 1em 1em;
-    
+}
+.listPreco{
+    list-style-type: disc;
+    list-style: inside;
+    padding-bottom: 0.8em;
+}
+.paragrafoPreco{
+    line-height: 1.4em;
+    font-size: 20px;
+}
+.titlePreco{
+    font-size: 20px;
+    padding-bottom: 1em;
+    color:#be9e60;
+    font-weight: bold;
+}
+.aPreco{
+    font-size: 19px;
+    text-decoration: none;
+    padding: 0.4em;
+    margin-bottom: 0.8em;
+    color:#ffffff;
+    border: 1px solid #ffffff;
+    background-color: #177653;
+    border-radius: 22px;
+}
+.aPreco:hover{
+    font-size: 21px;
+    background-color: #696969;
 
 }
 
