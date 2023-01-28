@@ -108,6 +108,30 @@
     /*color:teal;*/
     font-weight: bold;
 }
+/* #############VALORES################ */
+.divPreco{
+    border: 2px solid #c29e5b;
+    margin: 1em 2em;
+    width:50%;
+    background: #000000;
+    color:#ffffff;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.warehouseValor{
+    border: 2px solid #be9e60;
+    width: 50%;
+    text-align: center;
+}
+.titleServicos{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1em 1em;
+    
+
+}
+
 
 @media screen and (max-width: 420px){
     .styleDespertar {
