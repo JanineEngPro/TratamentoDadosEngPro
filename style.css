@@ -306,4 +306,11 @@ h1{
     .contaner{
         width: 44%;
     }
+    .imgDespertar, .imgDespertar2 {
+        width: 96%;
+        margin: 2% 2%;
+    } 
+    .imgDespertar3 {
+        width: 27%;
+    }
 }
